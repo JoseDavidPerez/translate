@@ -17,10 +17,10 @@ class TranslationViewModel: ObservableObject {
     var cancellables = Set<AnyCancellable>()
     private let translationService = TranslationService()
     
-    func translate() {
+    func translate(targetLanguage: String) {
         guard !originalText.isEmpty else { return }
 
-        translationService.translate(text: originalText) { [weak self] result in
+        translationService.translate(text: originalText, targetLaguage: targetLanguage) { [weak self] result in
             switch result {
             case .success(let translatedText):
                 DispatchQueue.main.async {

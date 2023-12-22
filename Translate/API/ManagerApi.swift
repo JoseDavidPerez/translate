@@ -13,10 +13,10 @@ class TranslationService {
     private let rapidAPIKey = "74b279f2b8msh92543f926d4f234p1f587cjsne34a50a8cc38"
     private let translationURL = URL(string: "https://google-translate1.p.rapidapi.com/language/translate/v2")!
 
-    func translate(text: String, completion: @escaping (Result<String, Error>) -> Void) {
+    func translate(text: String, targetLaguage : String, completion: @escaping (Result<String, Error>) -> Void) {
         let parameters: [String: Any] = [
             "q": text,
-            "target": "es"
+            "target": targetLaguage
         ]
 
         var request = URLRequest(url: translationURL)

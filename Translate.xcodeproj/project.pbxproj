@@ -20,6 +20,8 @@
 		B9ABEB6B2B214E50002C927A /* TranslateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ABEB6A2B214E50002C927A /* TranslateUITestsLaunchTests.swift */; };
 		B9ABEB782B214EC6002C927A /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ABEB772B214EC6002C927A /* TranslateViewController.swift */; };
 		B9B4B65D2B2BE3A300B89B49 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4B65C2B2BE3A300B89B49 /* LanguageViewController.swift */; };
+		B9CED5092B3134ED00849F0D /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CED5082B3134ED00849F0D /* Language.swift */; };
+		B9CED50B2B31459800849F0D /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CED50A2B31459800849F0D /* TranslateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B9ABEB6A2B214E50002C927A /* TranslateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B9ABEB772B214EC6002C927A /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		B9B4B65C2B2BE3A300B89B49 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		B9CED5082B3134ED00849F0D /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		B9CED50A2B31459800849F0D /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B9830EB42B22CDC7005F9778 /* Translate.swift */,
+				B9CED5082B3134ED00849F0D /* Language.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		B9830EB22B22CCC7005F9778 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B9CED50A2B31459800849F0D /* TranslateView.swift */,
 				B9ABEB772B214EC6002C927A /* TranslateViewController.swift */,
 				B9B4B65C2B2BE3A300B89B49 /* LanguageViewController.swift */,
 			);
@@ -303,10 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9ABEB782B214EC6002C927A /* TranslateViewController.swift in Sources */,
+				B9CED50B2B31459800849F0D /* TranslateView.swift in Sources */,
 				B9830EB52B22CDC7005F9778 /* Translate.swift in Sources */,
 				B9830EB72B22DB90005F9778 /* TranslateViewModel.swift in Sources */,
 				B9ABEB482B214E4E002C927A /* AppDelegate.swift in Sources */,
 				B9ABEB4A2B214E4E002C927A /* SceneDelegate.swift in Sources */,
+				B9CED5092B3134ED00849F0D /* Language.swift in Sources */,
 				B9B4B65D2B2BE3A300B89B49 /* LanguageViewController.swift in Sources */,
 				B9830EB02B22CC45005F9778 /* ManagerApi.swift in Sources */,
 			);
